@@ -172,10 +172,19 @@ TEST(PrimeTest, SumPrimeMediumBounds) {
     EXPECT_EQ(sumPrime(18), 58);
     EXPECT_EQ(sumPrime(19), 77);
     EXPECT_EQ(sumPrime(20), 77);
+    EXPECT_EQ(sumPrime(21), 77);
+    EXPECT_EQ(sumPrime(22), 77);
+    EXPECT_EQ(sumPrime(23), 100);
+    EXPECT_EQ(sumPrime(24), 100);
+    EXPECT_EQ(sumPrime(25), 100);
+    EXPECT_EQ(sumPrime(26), 100);
+    EXPECT_EQ(sumPrime(27), 100);
+    EXPECT_EQ(sumPrime(28), 100);
+    EXPECT_EQ(sumPrime(29), 129);
+    EXPECT_EQ(sumPrime(30), 129);
 }
 
 TEST(PrimeTest, SumPrimeLargeBounds) {
-    EXPECT_EQ(sumPrime(30), 129);
     EXPECT_EQ(sumPrime(50), 328);
     EXPECT_EQ(sumPrime(100), 1060);
 }
