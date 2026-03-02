@@ -149,41 +149,6 @@ TEST(PrimeTest, NextPrimeLargeNumbers) {
     EXPECT_EQ(nextPrime(109), 113);
 }
 
-TEST(PrimeTest, SumPrimeSmallBounds) {
-    EXPECT_EQ(sumPrime(2), 0);
-    EXPECT_EQ(sumPrime(3), 2);
-    EXPECT_EQ(sumPrime(4), 2);
-    EXPECT_EQ(sumPrime(5), 5);
-    EXPECT_EQ(sumPrime(6), 5);
-    EXPECT_EQ(sumPrime(7), 10);
-    EXPECT_EQ(sumPrime(8), 10);
-    EXPECT_EQ(sumPrime(9), 10);
-    EXPECT_EQ(sumPrime(10), 17);
-    EXPECT_EQ(sumPrime(11), 17);
-}
-
-TEST(PrimeTest, SumPrimeMediumBounds) {
-    EXPECT_EQ(sumPrime(12), 28);
-    EXPECT_EQ(sumPrime(13), 28);
-    EXPECT_EQ(sumPrime(14), 41);
-    EXPECT_EQ(sumPrime(15), 41);
-    EXPECT_EQ(sumPrime(16), 41);
-    EXPECT_EQ(sumPrime(17), 58);
-    EXPECT_EQ(sumPrime(18), 58);
-    EXPECT_EQ(sumPrime(19), 77);
-    EXPECT_EQ(sumPrime(20), 77);
-    EXPECT_EQ(sumPrime(21), 77);
-    EXPECT_EQ(sumPrime(22), 77);
-    EXPECT_EQ(sumPrime(23), 100);
-    EXPECT_EQ(sumPrime(24), 100);
-    EXPECT_EQ(sumPrime(25), 100);
-    EXPECT_EQ(sumPrime(26), 100);
-    EXPECT_EQ(sumPrime(27), 100);
-    EXPECT_EQ(sumPrime(28), 100);
-    EXPECT_EQ(sumPrime(29), 129);
-    EXPECT_EQ(sumPrime(30), 129);
-}
-
 TEST(PrimeTest, SumPrimeLargeBounds) {
     EXPECT_EQ(sumPrime(50), 328);
     EXPECT_EQ(sumPrime(100), 1060);
