@@ -1,3 +1,5 @@
+#define ALG_H
+
 #include <cstdint>
 
 bool checkPrime(uint64_t value);
