@@ -7,8 +7,8 @@ TEST(CheckPrimeTest, Ispr3) { EXPECT_FALSE(checkPrime(28)); }
 TEST(CheckPrimeTest, Ispr4) { EXPECT_TRUE(checkPrime(97)); }
 
 TEST(NPrimeTest, NOfpr1) { EXPECT_EQ(nPrime(1), 2); }
-TEST(NPrimeTest, NOfpr2) { EXPECT_EQ(nPrime(13), 17); }
-TEST(NPrimeTest, NOfpr3) { EXPECT_EQ(nPrime(7), 17); }
+TEST(NPrimeTest, NOfpr2) { EXPECT_EQ(nPrime(7), 17); }
+TEST(NPrimeTest, NOfpr3) { EXPECT_EQ(nPrime(15), 47); }
 
 TEST(NextPrimeTest, nextpr1) { EXPECT_EQ(nextPrime(10), 11); }
 TEST(NextPrimeTest, nextpr2) { EXPECT_EQ(nextPrime(13), 17); }
